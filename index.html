@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calci.css">
+    <!-- Set the document's character encoding and viewport settings -->
+    <!-- Link to an external CSS stylesheet named "calci.css" for styling -->
+</head>
+<body>
+    <div class="container">
+        <!-- Create a container div to group the content -->
+        <h1>AGE CALCULATOR</h1>
+        <!-- Display the main heading for the age calculator -->
+    </div>
+
+    <!-- Label for the date of birth input -->
+    <label for="dob">Date of Birth:</label>
+    <input id="dob" type="date" required>
+
+    <!-- Input field for entering the date of birth with id "dob" and "required" attribute -->
+    <!-- Button to trigger the age calculation when clicked -->
+    <button onclick="calculateAge()">calculate</button>
+
+    <!-- Paragraph to display the calculated age result -->
+    <p id="result"></p>
+
+    <div>
+        <h1 class="bottom">ABOUT AGE CALCULATOR</h1>
+        <!-- Display a heading for the section about the age calculator -->
+    </div>
+    <p>
+        Age calculator is an online tool with which you can find out your age using your date of birth and the current date. The tool helps to find out the difference in time between two dates. The result is displayed in years. The results are also not affected by the time zone of a person since the tool just tells you the difference in time. The age calculator is based on the common age system, therefore it can be used by everyone.
+    </p>
+    <script src="calculator.js"></script>
+</body>
+</html>
